@@ -19,9 +19,9 @@ int main(int argc, char* argv[])
 	assert(SUCCEEDED(hr));
 
 	//テクスチャコンバーター
-	TextureConverter textureConverter;
+	TextureConverter Converter;
 	//テクスチャ変換
-	textureConverter.ConvertTextureWICToDDS(argv[kFilePath]);
+	Converter.ConvertTextureWICToDDS(argv[kFilePath]);
 
 	//COM ライブラリの終了
 	CoUninitialize();
