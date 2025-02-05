@@ -38,6 +38,7 @@ void TextureConverter::LoadWICTextureFromFile(const std::string& filePath)
 void TextureConverter::SeparateFilePath(const std::wstring& filePath)
 {
 
+
 	size_t pos1;
 	std::wstring exceptExt;
 	//区切り文字'_'がでてくる
